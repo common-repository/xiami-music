@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+
+#xiamiPopupContainer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	z-index: 20000;
+}
+
+#xiamiPopupContent {
+	background-color: #fff;
+	min-width: 20px;
+	min-height: 20px;
+	padding: 2px;
+}
+
+.xiamiPopupPopup .xiamiPopupImage {
+	margin: 5px;
+	margin-right: 15px;
+}
+
+.xiamiPopupPopup .corner {
+	width: 19px;
+	height: 15px;
+}
+
+.xiamiPopupPopup .topLeft {
+	background: url(images/balloon_topLeft.png) no-repeat;
+}
+
+.xiamiPopupPopup .bottomLeft {
+	background: url(images/balloon_bottomLeft.png) no-repeat;
+}
+
+.xiamiPopupPopup .left {
+	background: url(images/balloon_left.png) repeat-y;
+}
+
+.xiamiPopupPopup .right {
+	background: url(images/balloon_right.png) repeat-y;
+}
+
+.xiamiPopupPopup .topRight {
+	background: url(images/balloon_topRight.png) no-repeat;
+}
+
+.xiamiPopupPopup .bottomRight {
+	background: url(images/balloon_bottomRight.png) no-repeat;
+}
+
+.xiamiPopupPopup .top {
+	background: url(images/balloon_top.png) repeat-x;
+}
+
+.xiamiPopupPopup .bottom {
+	background: url(images/balloon_bottom.png) repeat-x;
+	text-align: center;
+}
+
+.xiamiAblumCover {
+	background: transparent url(images/album_cover.png) no-repeat scroll 0 0
+		;
+	height: 100px;
+	padding: 7px 6px 14px 17px;
+	width: 100px;
+}
+
+.xiamihome {
+	background: transparent url(images/xiamilogo.gif) no-repeat scroll 0 0;
+	display: block;
+	overflow: hidden;
+	min-height: 30px;
+}
